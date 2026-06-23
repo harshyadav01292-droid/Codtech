@@ -160,14 +160,3 @@ The project is fully simulated using the Wokwi online simulator and behaves the 
 
 ---
 
-## 👨‍💻 Author
-
-**Vishesh Srivastava**
-
-GitHub: https://github.com/vishsri12
-
----
-
-## 📄 License
-
-This project is created for educational and learning purposes. Feel free to use, modify, and improve it.
