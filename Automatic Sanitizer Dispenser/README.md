@@ -127,12 +127,4 @@ This project helped me learn:
 
 ---
 
-## 👨‍💻 Author
-
-**Vishesh Srivastava**
-
-GitHub: https://github.com/vishsri12
-
----
-
 ⭐ **If you found this project helpful, consider giving it a star!**
