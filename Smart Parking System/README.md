@@ -138,11 +138,3 @@ Through this project, I gained practical experience with:
 - **Simulator:** Wokwi
 - **Language:** C++
 
-
----
-
-## 👨‍💻 Author
-
-**Vishesh Srivastava**
-
-GitHub: https://github.com/vishsri12
