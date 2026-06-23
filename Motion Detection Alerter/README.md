@@ -122,11 +122,5 @@ Motion-Detection-Alerter/
 * Integrate with MQTT or Firebase
 * Capture images using an ESP32-CAM
 
----
 
-## 👨‍💻 Author
-
-**Vishesh Srivastava**
-
-Github: https://github.com/vishsri12
 
