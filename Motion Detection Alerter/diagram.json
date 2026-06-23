@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "author": "Vishesh Srivastava",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": 33.5, "left": 62.2, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led2",
+      "top": 114,
+      "left": 285,
+      "rotate": 90,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 138.35,
+      "left": 192,
+      "attrs": { "value": "220" }
+    },
+    { "type": "wokwi-pir-motion-sensor", "id": "pir1", "top": 61.6, "left": -45.78, "attrs": {} }
+  ],
+  "connections": [
+    [ "r1:2", "led2:A", "green", [ "v0" ] ],
+    [ "r1:1", "esp:D4", "green", [ "v0" ] ],
+    [ "esp:GND.1", "led2:C", "black", [ "h105.3", "v-0.1" ] ],
+    [ "pir1:OUT", "esp:D13", "green", [ "v0" ] ],
+    [ "pir1:GND", "esp:GND.2", "black", [ "v0" ] ],
+    [ "pir1:VCC", "esp:VIN", "red", [ "v0" ] ]
+  ],
+  "dependencies": {}
+}
